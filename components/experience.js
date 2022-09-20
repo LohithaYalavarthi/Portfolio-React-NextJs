@@ -7,7 +7,7 @@ import Divider from "@mui/material/Divider"
 import BoxView from "../components/boxview"
 function Experience() {
   return (
-    <>
+    <div id="exp">
       <Container sx={{ marginTop: "100px" }}>
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <Divider sx={{ width: "50px", color: "black" }} />
@@ -57,7 +57,7 @@ function Experience() {
           />
         </Paper>
       </Container>
-    </>
+    </div>
   )
 }
 

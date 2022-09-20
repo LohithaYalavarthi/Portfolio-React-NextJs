@@ -8,7 +8,7 @@ import BoxView from "../components/boxview"
 function Project() {
   return (
     <div id="project">
-      <Container sx={{ marginTop: "100px" }}>
+      <Container sx={{ marginTop: "100px", marginBottom: "2px" }}>
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <Divider sx={{ width: "50px", color: "black" }} />
           <Box sx={{ paddingLeft: "30px" }}>CHECK OUT MY</Box>

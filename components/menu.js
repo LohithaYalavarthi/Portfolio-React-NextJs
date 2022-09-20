@@ -4,7 +4,7 @@ import Box from "@mui/material/Box"
 
 function Menu() {
   return (
-    <div class="navbar">
+    <div className="navbar">
       <Box m={2}>
         <Box sx={{ backgroundColor: "#773dc8" }}>
           <Typography variant="h1">LY</Typography>{" "}
@@ -12,6 +12,8 @@ function Menu() {
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
+        <a href="#exp">Experience</a>
+
         <a href="#project">Project</a>
       </Box>
     </div>
