@@ -1,0 +1,67 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #773dc8;
+  color : white;
+  overflow: hidden;
+  position: fixed;
+  height: 100vh;
+}
+.navbar a {
+  float: top;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sc-main-div{
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  align-items: center;
+  margin : '20px'
+  /* justify-content: center; */
+  /* align-content: center; */
+}
+
+.smallbio{
+  letter-spacing: 1px;
+    color: #5F6F81;
+    font-size: 1rem;
+    min-width: 250px;
+    line-height: 1.4;
+}
+.smallbio span{
+  color: #8444df;
+    font-size: 1.1rem;
+}
+ul .a {
+  list-style-type: square;
+
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}

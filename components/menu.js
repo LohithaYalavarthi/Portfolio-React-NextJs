@@ -1,0 +1,21 @@
+import { Typography } from "@mui/material"
+import React from "react"
+import Box from "@mui/material/Box"
+
+function Menu() {
+  return (
+    <div class="navbar">
+      <Box m={2}>
+        <Box sx={{ backgroundColor: "#773dc8" }}>
+          <Typography variant="h1">LY</Typography>{" "}
+        </Box>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Project</a>
+      </Box>
+    </div>
+  )
+}
+
+export default Menu
