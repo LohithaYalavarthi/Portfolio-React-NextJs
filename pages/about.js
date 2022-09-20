@@ -50,7 +50,7 @@ function About() {
             </p> */}
               <Typography variant="subtitle1" p={2}>
                 {" "}
-                HI THERE! I'M
+                HI THERE! I&apos;M
               </Typography>
               <Typography variant="h3" gutterBottom pl={2}>
                 <Box

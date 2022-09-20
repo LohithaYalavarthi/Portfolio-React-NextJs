@@ -41,7 +41,7 @@ function BoxView({ text, tech, subtext, points = [] }) {
           </Typography>
           <List className="a">
             {points.map((point, i) => (
-              <ListItem disablePadding>
+              <ListItem disablePadding key={i}>
                 {" "}
                 <Typography variant="h6" pl={2} pb={1}>
                   {i + 1} . {point}
