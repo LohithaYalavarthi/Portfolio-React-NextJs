@@ -100,7 +100,7 @@ function About() {
                   className="button-style"
                 >
                   <a
-                    href="/Resume_Lohitha.pdf"
+                    href="/Lohitha.pdf"
                     alt="alt text"
                     target="_blank"
                     rel="noopener noreferrer"
