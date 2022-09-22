@@ -84,12 +84,12 @@ ul .a {
     grid-template-columns: none;
   }
   .grid-style{
-    display: grid;
-    row-gap: 2px;
-    place-items: center;
+    display: grid !important;
+    row-gap: 2px !important;
+    place-items: center !important;
   }
   .button-style{
-    margin-right: 0px;
+    margin-right: 0px !important;
   }
   .paper-style{
     box-shadow: none !important;
