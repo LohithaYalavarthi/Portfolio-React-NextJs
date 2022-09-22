@@ -24,13 +24,13 @@ function BoxView({ text, tech, subtext, points = [] }) {
             flexWrap: "wrap",
           }}
         >
-          <Typography variant="h5" p={1}>
+          <Typography variant="h5" p={1} className="text-style">
             {text}
           </Typography>
-          <Typography variant="subtitle1" pl={1} pr={1}>
+          <Typography variant="subtitle1" pl={1} pr={1} className="text-style">
             {subtext}
           </Typography>
-          <Typography variant="h6" p={1}>
+          <Typography variant="h6" p={1} className="text-style">
             {tech && (
               <>
                 {" "}
@@ -43,7 +43,7 @@ function BoxView({ text, tech, subtext, points = [] }) {
             {points.map((point, i) => (
               <ListItem disablePadding key={i}>
                 {" "}
-                <Typography variant="h6" pl={2} pb={1}>
+                <Typography variant="h6" pl={2} pb={1} className="text-style-1">
                   {i + 1} . {point}
                 </Typography>
               </ListItem>

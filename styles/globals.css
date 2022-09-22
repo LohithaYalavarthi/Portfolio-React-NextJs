@@ -94,4 +94,10 @@ ul .a {
   .paper-style{
     box-shadow: none !important;
   }
+  .text-style {
+    font-weight: bold !important;
+  }
+  .text-style-1{
+    font-weight: 600 !important;
+  }
 }

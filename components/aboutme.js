@@ -22,17 +22,17 @@ function AboutMe() {
           sx={{ padding: "23px", borderRadius: "45px" }}
           className="paper-style"
         >
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h6" gutterBottom className="text-style">
             I recently graduated masters in Computer Science and currently
             located in Toronto Canada
           </Typography>
 
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h6" gutterBottom className="text-style">
             A progressive thinker with excellent communication skills possesses
             5+ years of rich experience as an IT professional.
           </Typography>
 
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h6" gutterBottom className="text-style">
             Skilled in problem-solving and algorithms. Sound academic
             background..
           </Typography>
