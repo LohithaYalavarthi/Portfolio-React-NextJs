@@ -17,7 +17,11 @@ function Project() {
           {" "}
           Projects
         </Typography>
-        <Paper elevation={3} sx={{ padding: "23px", borderRadius: "45px" }}>
+        <Paper
+          elevation={3}
+          sx={{ padding: "23px", borderRadius: "45px" }}
+          className="paper-style"
+        >
           <BoxView
             text="Peerz Mobile Application"
             points={[

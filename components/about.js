@@ -24,7 +24,12 @@ function About() {
   return (
     <div id="home">
       <Container
-        sx={{ display: "flex", alignItems: "center", height: "100vh" }}
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          height: "100vh",
+          flexWeap: "wrap",
+        }}
       >
         <Box sx={{ flexGrow: 1 }}>
           <Grid container spacing={2} p={2}>
@@ -44,7 +49,7 @@ function About() {
                 />
               </Box>
             </Grid>
-            <Grid item xs={7} mt={5}>
+            <Grid item xs={7} className="margin-col">
               {/* <p variant="heading1" gutterBottom p={1}>
               HI THERE! I'M
             </p> */}
@@ -77,7 +82,11 @@ function About() {
                 </p>
                 passionate about developing applications.
               </Typography>
-              <Box p={2} sx={{ display: "flex", alignItems: "center" }}>
+              <Box
+                p={2}
+                sx={{ display: "flex", alignItems: "center" }}
+                className="grid-style"
+              >
                 <Button
                   sx={{
                     background: "#773dc8",
@@ -88,6 +97,7 @@ function About() {
                   }}
                   fontSize="small"
                   variant="contained"
+                  className="button-style"
                 >
                   <a
                     href="/Resume_Lohitha.pdf"

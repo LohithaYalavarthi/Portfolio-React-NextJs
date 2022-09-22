@@ -65,3 +65,33 @@ ul .a {
     background: black;
   }
 }
+.container {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    display: none;
+  }
+  .margin-col {
+    margin : 20px;
+    max-width: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: none;
+  }
+  .grid-style{
+    display: grid;
+    row-gap: 2px;
+    place-items: center;
+  }
+  .button-style{
+    margin-right: 0px;
+  }
+  .paper-style{
+    box-shadow: none;
+  }
+}

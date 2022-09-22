@@ -26,6 +26,7 @@ function Skills() {
             display: "flex",
             flexWrap: "wrap",
           }}
+          className="paper-style"
         >
           <PaperComponent icon="api" text="Rest Api" />
           <PaperComponent icon="react" text="React" />

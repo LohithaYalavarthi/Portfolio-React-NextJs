@@ -17,7 +17,11 @@ function AboutMe() {
           {" "}
           About Me{" "}
         </Typography>
-        <Paper elevation={3} sx={{ padding: "23px", borderRadius: "45px" }}>
+        <Paper
+          elevation={3}
+          sx={{ padding: "23px", borderRadius: "45px" }}
+          className="paper-style"
+        >
           <Typography variant="h6" gutterBottom>
             I recently graduated masters in Computer Science and currently
             located in Toronto Canada

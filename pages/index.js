@@ -1,6 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
-import styles from "../styles/Home.module.css"
+// import styles from "../styles/Home.module.css"
 import About from "../components/about"
 import Skills from "../components/skills"
 import Menu from "../components/menu"
@@ -19,11 +19,14 @@ const outerTheme = createTheme({
 export default function Home() {
   return (
     <ThemeProvider theme={outerTheme}>
-      <div className={styles.container}>
-        <div m={3}>
+      <div className="container">
+        <div className="col-menu">
           <Menu />
         </div>
-        <Container sx={{ height: "100vh", marginLeft: "20px" }}>
+        <Container
+          sx={{ height: "100vh", marginLeft: "20px" }}
+          className="margin-col"
+        >
           <About />
           <AboutMe />
           <Skills />
