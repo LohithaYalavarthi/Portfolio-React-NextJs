@@ -52,9 +52,8 @@ function Experience() {
             points={[
               "Worked mainly on Postman API’s, JavaScript, jQuery, React, Redux, TypeScript, Oracle SQL,PostgreSQL, Bootstrap, Html5, CSS3, ES6, Figma, Linux , Jest",
               "Experienced in creating backend APIs and communicating the requirements with clients, and Collaborated with designers to build design mockups to UI and delivered quality-driven applications.",
-              "Handled, Designed & Implemented web applications and Delivered the Application with the best Quality driven & with the best User Experience for Bank Users.",
               "Developed and tested the code to work in all the browsers",
-              "Worked closely with clients to understand and ensure the requirements were met.",
+              "Worked with clients to understand and ensure the requirements were met.",
             ]}
           />
         </Paper>
