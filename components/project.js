@@ -26,7 +26,7 @@ function Project() {
             text="Peerz Mobile Application"
             points={[
               "It is a Mobile Learning App, where student and mentor can log in through the App and can be able to raise and reply to a question",
-              "Worked on React, Redux, Styled Components, Ant Design, React-Native.",
+              "Worked on React-Native and Firebase and Azure",
               "Worked with Azure DEVOPS tools for releases and deployments in various environments etc",
               "Worked with GOOGLE CLOUD FIRESTORE and CLOUD Functions regarding matching a list of mentors with students and build the front end (UI/UX) with React Native on raising and reply to a Lessons Functionalities and Raising and Claiming a Questions etc",
               "Worked on Agile Environment, engaged in planning discussions, participated in SNT and worked towards project delivery from DEV environment to till Production Process",
@@ -37,26 +37,28 @@ function Project() {
             text="Peerz Web Application"
             points={[
               "It is a Web Application handled by Admin ( Clients) to Rematch or Reassigns the Particular question for students and also utilized for monitoring the list of questions requested and responded etc",
-              "Worked on React, Redux, Styled Components, Tailwindcss, React-Native, Express Js,  Firebase.",
-              "Worked on webpack and with Azure DEVOPS tools for releases and deployments in various environments etc",
-              "The various activities included in the App which requires interacting with clients, Involved in Planning meetings, Performed various demos to Clients, Attended Scrum Calls",
+              "Worked on React, Redux, Styled Components, Tailwindcss, Express Js,Firebase.",
+              "Worked on webpack and with AWS for releases and deployments in various environments etc",
+              "Finished all the development, before a deadline",
+              "The various activities included sharing tech ideas with other developers. Participated in Planning meetings, Performed various demos to Clients, Attended Scrum Calls to discuss deadline",
             ]}
           />
           <BoxView
             text="Consumer Banking Web Application Equitas Bank, India"
             points={[
-              "It is a User-Friendly Web and Mobile Application designed for Users in more Moderate Way. Customers can Sign-Up and proceed to log in to their profiles and ability to do transfers within the bank or other banks at their doorstep",
-              "Worked on HTML, Javascript, SQL, CSS",
-              "Development work included building, implementing the UI/UX based on the design and achieving the banking functionalities",
-              "The various activities included in the App which requires interacting with third-party vendors, Bank Clients in discussing the Application Functionalities, Involved in Planning meetings, Performed various demos to Clients, Attended Scrum Calls",
+              "It is a User-Friendly Web and Mobile Application designed for Users in more Moderate Way. Customers can Sign-Up and proceed to log in to their profiles and ability to do transfers within the bank or other banks",
+              "Worked on HTML, Javascript,Nodejs, React, React Native, PostgreSQL, MongoDB,  SQL, CSS",
+              "Development work included building, implementing the UI/UX screens i.e (SignUp, Login, Dashboard , Payments etc) on the Figma design and achieving the banking functionalities",
+              "Created APIS for sending back account balance ,transaction and payment details from database",
+              "Participating in the coding competitions and share technology updates with in the development team",
             ]}
           />
           <BoxView
-            text="IDBI AOS Banking Application "
+            text="Shopping Application "
             points={[
-              "IDBI Account Opening Application serves for Account Opening Purpose where Bank Users can open an Account for Customer",
-              "	Handled & Designed & Implemented based on FSD and Delivering the Application with the best Quality driven & with best User Experience for Bank Users",
-              "Development done in React Js,TypeScript, Redux, ES6, REST, Postman, API Calls to External Systems, MongoDB",
+              "Displaying list of shopping items,adding in a cart,  processing payments, search items and displaying offers and coupons etc",
+              "Technologies involved are React, AWS, GraphQL, DynamoDB",
+              "Worked end to end process i.e delivering app from dev to prod env",
             ]}
           />
         </Paper>
