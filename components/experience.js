@@ -38,9 +38,8 @@ function Experience() {
             subtext="Senior Software Engineer"
             points={[
               "Working Experience with web technologies such as React/Redux, NodeJS,TypeScript, NextJS, JavaScript, React Native, MongoDB, SQL, CSS,Firebase, PHP, AWS.",
-              "Implemented UX using CSS and Material UI, Styled Components, AntDesign.",
-              "Implemented Routing functionalities using React-Router",
-              "Worked in Building front-end and back-end and Mobile apps.",
+              "Implemented UX using CSS and Material UI, Styled Components, AntDesign etc",
+              "Implemented Routing functionalities using React-Router and Reach-router libraries",
               "Fixed Bugs in React Applications to improve UX/UI.",
               "Proficient in data structures, algorithm design, problem-solving, andcomplexity analysis",
               "Worked with Microsoft Azure, and AWS for deploying in variousenvironments and integrating databases",
@@ -49,13 +48,13 @@ function Experience() {
           <BoxView
             text="I-Exceed Technologies Solutions Pvt. Ltd"
             subtext="Software Developer"
-            tech="React, REST API, Chart Js"
+            tech="React, Nodejs, TypeScript, AWS"
             points={[
-              "Worked mainly on Postman API’s, JavaScript, jQuery, Oracle SQL,PostgreSQL, Bootstrap, Html5, CSS3, ES6, Figma, Linux.",
-              "Implemented UI/UX designs as directed by designer",
-              "Handled, Designed & Implemented web applications and Delivered theApplication with the best Quality driven & with the best User Experiencefor Bank Users.",
+              "Worked mainly on Postman API’s, JavaScript, jQuery, React, Redux, TypeScript, Oracle SQL,PostgreSQL, Bootstrap, Html5, CSS3, ES6, Figma, Linux.",
+              "Experienced in creating backend APIs and communicating the requirements with clients, and Collaborated with designers to build design mockups to UI and delivered quality-driven applications.",
+              "Handled, Designed & Implemented web applications and Delivered the Application with the best Quality driven & with the best User Experience for Bank Users.",
               "Developed and tested the code to work in all the browsers",
-              "Worked closely with clients to understand and ensure the requirementswere met.",
+              "Worked closely with clients to understand and ensure the requirements were met.",
             ]}
           />
         </Paper>
