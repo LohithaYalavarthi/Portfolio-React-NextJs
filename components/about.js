@@ -73,10 +73,9 @@ function About() {
                     color: "#8444df",
                   }}
                 >
-                  Front-End Web Developer
+                  Front-End and Back-End Developer
                 </p>
-                passionate about creating interactive applications and
-                experiences on the web.
+                passionate about developing applications.
               </Typography>
               <Box p={2} sx={{ display: "flex", alignItems: "center" }}>
                 <Button
