@@ -24,11 +24,10 @@ function Experience() {
         >
           <BoxView
             text="CGI INC"
-            tech="React, REST API, Chart Js"
-            subtext="IT Service Technician"
+            tech=""
+            subtext="Application Support"
             points={[
               "Responsible for troubleshooting issues for various applications and provide the solutions.",
-              "Handling the large amount of calls and providing quality service inassisting clients for various issues",
               "Using remote access, Service now, Active directory and Service desk toolKit and a lot of other apps for troubleshooting issues.",
               "Diagnose and resolve technical hardware and software issues.",
             ]}
