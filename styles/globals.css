@@ -76,7 +76,7 @@ ul .a {
     display: none;
   }
   .margin-col {
-    margin : 20px;
+    margin : 20px !important;
     max-width: none;
   }
   .container {
@@ -92,6 +92,6 @@ ul .a {
     margin-right: 0px;
   }
   .paper-style{
-    box-shadow: none;
+    box-shadow: none !important;
   }
 }
