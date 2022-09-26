@@ -10,6 +10,7 @@ import Project from "../components/project"
 import { createTheme, ThemeProvider } from "@mui/material/styles"
 import ContactMe from "../components/contactme"
 import Container from "@mui/material/Container"
+import Footer from "../components/footer"
 const outerTheme = createTheme({
   typography: {
     fontFamily: ["Poppins", "cursive"].join(","),
@@ -32,9 +33,11 @@ export default function Home() {
           <Skills />
           <Experience />
           <Project />
+
           {/* <ContactMe /> */}
         </Container>
       </div>
+      <Footer />
     </ThemeProvider>
   )
 }
