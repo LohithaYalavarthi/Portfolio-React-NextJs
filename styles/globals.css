@@ -96,10 +96,10 @@ ul .a {
     padding-right: 24px !important;
   }
   .text-style {
-    font-weight: bold !important;
+    /* font-weight: bold !important; */
   }
   .text-style-1{
-    font-weight: 600 !important;
+    /* font-weight: 600 !important; */
   } 
 }
 
