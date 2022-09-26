@@ -40,9 +40,9 @@ function Experience() {
             subtext1="Apr. 2019 to Jan. 2021 - India"
             points={[
               "Experienced in building Responsive Web, and Mobile Applications and in creating REST APIs",
-              "Communicated the requirements with clients, created stories, and collaborated with designers tobuild design mockups to UI and delivered quality-driven applications.",
+              "Communicated the requirements with clients, created stories, and collaborated with designers to build design mockups to UI and delivered quality-driven applications.",
               "Experience using version control GIT and GitHub and familiar with (CI/CD) pipelines i.e. Docker,and cloud technologies like AWS, Vercel, and Azure.",
-              "Familiar with writing tests, including unit tests, integration tests, and e2e using RTL and Jest, andalso supported shipping an application to a live production environment.",
+              "Familiar with writing tests, including unit tests, integration tests, and e2e using RTL and Jest, and also supported shipping an application to a live production environment.",
               "Worked in an agile environment, engaged in the scrum, contributed to planning discussions, met deadlines, and delivered the project.",
             ]}
           />
@@ -50,7 +50,7 @@ function Experience() {
             text="I-Exceed Technologies Solutions Pvt. Ltd"
             subtext="Software Developer"
             subtext1="Jan. 2016 to Apr. 2019- India"
-            tech="React/ Redux, TypeScript, NodeJS, React Native, RTL, Jest, JavaScript,ES6+, HTML, CSS/ SCSS, WebPack, MongoDB, GIT/GitHub, AWS, Linux, Rest API’s, Postman, JSON,XML, Docker, Vercel."
+            tech="React/ Redux, TypeScript, NodeJS, React Native, RTL, Jest, JavaScript, ES6+, HTML, CSS/ SCSS, WebPack, MongoDB, GIT/GitHub, AWS, Linux, Rest API’s, Postman, JSON, XML, Docker, Vercel."
             points={[
               "Handled, Designed & Implemented web and mobile banking applications and Delivered the Application with the best Quality driven & with the best User Experience for Bank Users.",
               "Experience using SVN and GIT and cloud technologies like Azure, and AWS.",

@@ -23,42 +23,53 @@ function Project() {
           className="paper-style"
         >
           <BoxView
-            text="Peerz Mobile Application"
+            text="Shopping Application"
+            subtext1="Aug. 2020 to Jan. 2021"
             points={[
-              "It is a Mobile Learning App, where student and mentor can log in through the App and can be able to raise and reply to a question",
-              "Worked on React-Native and Firebase and Azure",
-              "Worked with Azure DEVOPS tools for releases and deployments in various environments etc",
-              "Worked with GOOGLE CLOUD FIRESTORE and CLOUD Functions regarding matching a list of mentors with students and build the front end (UI/UX) with React Native on raising and reply to a Lessons Functionalities and Raising and Claiming a Questions etc",
+              "Displaying list of shopping items, adding in a cart, processing payments, search items and displaying offers and coupons etc.",
+              "Technologies involved are React, React Hooks, NodeJS, GraphQL, AWS, DynamoDB, Storybook, Redux toolkit, Tailwind css, HTML, SCSS.",
+              "Worked end to end process i.e supported delivering app from dev to prod env.",
+            ]}
+          />
+          <BoxView
+            text="Peerz Mobile Application"
+            subtext1="Apr. 2019 to Aug. 2020"
+            points={[
+              "It is a Mobile Learning App, where student and mentor can log in through the App and can be able to raise , reply to a question , add skills & subjects , create profile etc.",
+              "Worked on React, Redux, NodeJS, React Native, Webpack, JavaScript, MongoDB, AWS, Storybook, Bootstrap, Html5, CSS3, Linux, and Git.",
+              "Worked with AWS for releases and deployments in various environments etc.",
+              "Worked with Express Apis, regarding matching a list of mentors with students and build the various functionalities on mobile (Android/Iphone) with React Native i.e raising and reply to a Questions based on subject etc.",
               "Worked on Agile Environment, engaged in planning discussions, participated in SNT and worked towards project delivery from DEV environment to till Production Process",
-              "Adapted with new tools and Learned new technologies",
+              "Adapted with new tools and Learned new technologies.",
             ]}
           />
           <BoxView
             text="Peerz Web Application"
+            subtext1="Apr. 2019 to Aug. 2020"
             points={[
               "It is a Web Application handled by Admin ( Clients) to Rematch or Reassigns the Particular question for students and also utilized for monitoring the list of questions requested and responded etc",
-              "Worked on React, Redux, Styled Components, Tailwindcss, Express Js,Firebase.",
-              "Worked on webpack and with AWS for releases and deployments in various environments etc",
-              "Finished all the development, before a deadline",
-              "The various activities included sharing tech ideas with other developers. Participated in Planning meetings, Performed various demos to Clients, Attended Scrum Calls to discuss deadline",
+              "Worked on React, Redux, Styled Components, Storybook, Tailwindcss, AWS, Express Js, MongoDB.",
+              "Participated in sharing tech topics and coding events etc.",
+              "Participated in Planning meetings, Performed various demos to Clients, Attended Scrum Calls to discuss status for user stories etc.",
             ]}
           />
           <BoxView
-            text="Consumer Banking Web Application Equitas Bank, India"
+            text="CORPORATE BANKING WEB APP EQUITAS BANK, INDIA	"
+            subtext1="Jan. 2018 to Apr. 2019"
             points={[
-              "It is a User-Friendly Web and Mobile Application designed for Users in more Moderate Way. Customers can Sign-Up and proceed to log in to their profiles and ability to do transfers within the bank or other banks",
-              "Worked on HTML, Javascript,Nodejs, React, React Native, PostgreSQL, MongoDB,  SQL, CSS",
-              "Development work included building, implementing the UI/UX screens i.e (SignUp, Login, Dashboard , Payments etc) on the Figma design and achieving the banking functionalities",
-              "Created APIS for sending back account balance ,transaction and payment details from database",
-              "Participating in the coding competitions and share technology updates with in the development team",
+              "Developed web application can be used by business correspondents who can visit customers at their doorstep and serve financial transactions and do Banking Operations.",
+              "Developed a MobileBanking Application designed for Customers to Perform Account Opening, Transfers, UPI, BillPayments, etc.",
+              "Development work included building, implementing the UI/UX screens i.e (SignUp, Login, Dashboard , Payments etc) and creating APIS i.e fetching the user details from database etc.",
+              "Development involved using React, Redux, Azure , TypeScript, NodeJS, Express,  Material UI, JavaScript, HTML, CSS3, SCSS, GIT and SQL.",
+              "Participating in the coding competitions and share technology updates with in the development team.",
             ]}
           />
           <BoxView
-            text="Shopping Application "
+            text="INDIA POST PAYMENTS BANK, INDIA	"
+            subtext1="Jan. 2016 to Jan. 2018"
             points={[
-              "Displaying list of shopping items,adding in a cart,  processing payments, search items and displaying offers and coupons etc",
-              "Technologies involved are React, AWS, GraphQL, DynamoDB",
-              "Worked end to end process i.e delivering app from dev to prod env",
+              "Developed a web application which is used to make Transactions that are essential to corporate ﬁnancing, investing and growth .The app helps corporate to do Cash Deposit ,Cash withdrawal ,Fund Transfer and other operations.",
+              "Worked on HTML, Javascript, Nodejs, React, React Native, PostgreSQL,  SQL, CSS",
             ]}
           />
         </Paper>
