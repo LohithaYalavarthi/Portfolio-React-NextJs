@@ -8,33 +8,38 @@ import Divider from "@mui/material/Divider"
 function AboutMe() {
   return (
     <div id="about">
-      <Container>
+      <Container
+        sx={{
+          display: "grid",
+          placeContent: "center",
+          rowGap: "20px",
+        }}
+      >
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <Divider sx={{ width: "50px", color: "black" }} />
-          <Box sx={{ paddingLeft: "30px" }}>Some Info</Box>
+          <Box sx={{ paddingLeft: "4px" }}>Some Info</Box>
         </Box>
-        <Typography variant="h4" m={5}>
-          {" "}
-          About Me{" "}
-        </Typography>
+        <Typography variant="h4"> About Me </Typography>
         <Paper
           elevation={3}
           sx={{ padding: "23px", borderRadius: "45px" }}
           className="paper-style"
         >
           <Typography variant="h6" gutterBottom className="text-style">
-            I recently graduated masters in Computer Science and currently
-            located in Toronto Canada
+            Experienced Full Stack Developer with 6+ years of experience in the
+            IT Industry.
           </Typography>
 
           <Typography variant="h6" gutterBottom className="text-style">
-            A progressive thinker with excellent communication skills possesses
-            5+ years of rich experience as an IT professional.
+            Having a Master’s degree specializing in Computer Science.
           </Typography>
 
           <Typography variant="h6" gutterBottom className="text-style">
-            Skilled in problem-solving and algorithms. Sound academic
-            background..
+            Skilled in problem-solving, data structures, and algorithms.
+          </Typography>
+          <Typography variant="h6" gutterBottom className="text-style">
+            Expertise in designing, developing, and implementing applications
+            using a range of technologies.
           </Typography>
         </Paper>
       </Container>

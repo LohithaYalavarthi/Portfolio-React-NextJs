@@ -27,12 +27,12 @@ function About() {
         sx={{
           display: "flex",
           alignItems: "center",
-          height: "100vh",
-          flexWeap: "wrap",
+          flexWrap: "wrap",
+          marginTop: "70px",
         }}
       >
         <Box sx={{ flexGrow: 1 }}>
-          <Grid container spacing={2} p={2}>
+          <Grid container spacing={2} p={7}>
             <Grid item xs={5} p={4}>
               <Box
                 style={{
@@ -142,11 +142,11 @@ function About() {
                       <GitHubIcon sx={{ color: "#8444df" }} fontSize="large" />
                     </Link>
                   </Paper>
-                  <Paper elevation={3}>
+                  {/* <Paper elevation={3}>
                     <Link href="https://twitter.com/yravindhra">
                       <TwitterIcon sx={{ color: "#8444df" }} fontSize="large" />
                     </Link>
-                  </Paper>
+                  </Paper> */}
                 </Box>
               </Box>
             </Grid>

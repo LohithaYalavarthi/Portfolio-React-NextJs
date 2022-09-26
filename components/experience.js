@@ -8,7 +8,7 @@ import BoxView from "../components/boxview"
 function Experience() {
   return (
     <div id="exp">
-      <Container sx={{ marginTop: "100px" }}>
+      <Container>
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <Divider sx={{ width: "50px", color: "black" }} />
           <Box sx={{ paddingLeft: "30px" }}>CHECK OUT MY</Box>
@@ -24,36 +24,39 @@ function Experience() {
         >
           <BoxView
             text="CGI INC"
-            tech=""
-            subtext="Application Support"
+            tech="Service now, Active directory and Service desk Tool Kit, SharePoint,Director, Citrix, Pulse secure, RSA."
+            subtext="Application Support Analyst"
+            subtext1="July 2021 to Current - Sherbrooke, QC"
             points={[
-              "Responsible for troubleshooting issues for various applications and provide the solutions.",
-              "Using remote access, Service now, Active directory and Service desk toolKit and a lot of other apps for troubleshooting issues.",
-              "Diagnose and resolve technical hardware and software issues.",
+              "Diagnose and resolve technical hardware and software issues (printer, cell phone, web browser,etc).",
+              "Responsible for handling numerous incoming calls, chats, and emails and providing L1/L2 support for clients with IT-related Issues or requests.",
+              "Using remote access to perform diagnostics, and troubleshooting when needed.",
             ]}
           />
           <BoxView
             text="CloudThing India"
-            tech="React, TypeScript , Node js, Docker, Azure"
+            tech="React/ Redux, TypeScript, NodeJS, React Native, RTL, Jest, JavaScript, ES6+, HTML, CSS/ SCSS, WebPack, MongoDB, GIT/GitHub, AWS, Linux, Rest API’s, Postman, JSON, XML, Docker, Vercel."
             subtext="Senior Software Engineer"
+            subtext1="Apr. 2019 to Jan. 2021 - India"
             points={[
-              "Working Experience with web and mobile technologies such as React/Redux, NodeJS,TypeScript, NextJS, JavaScript, React Native, MongoDB, SQL, CSS,Firebase, PHP, AWS, Jest",
-              "Implemented UX using CSS and Material UI, Styled Components, AntDesign etc",
-              "Implemented Routing functionalities using React-Router and Reach-router libraries",
-              "Experienced in testing applications using Jest, and delivered quality-driven applications",
-              "Proficient in data structures, algorithm design, problem-solving, and complexity analysis",
-              "Worked with Microsoft Azure, and AWS for deploying in various environments and integrating databases",
+              "Experienced in building Responsive Web, and Mobile Applications and in creating REST APIs",
+              "Communicated the requirements with clients, created stories, and collaborated with designers tobuild design mockups to UI and delivered quality-driven applications.",
+              "Experience using version control GIT and GitHub and familiar with (CI/CD) pipelines i.e. Docker,and cloud technologies like AWS, Vercel, and Azure.",
+              "Familiar with writing tests, including unit tests, integration tests, and e2e using RTL and Jest, andalso supported shipping an application to a live production environment.",
+              "Worked in an agile environment, engaged in the scrum, contributed to planning discussions, met deadlines, and delivered the project.",
             ]}
           />
           <BoxView
             text="I-Exceed Technologies Solutions Pvt. Ltd"
             subtext="Software Developer"
-            tech="React, Nodejs, NextJS, TypeScript, AWS, Docker"
+            subtext1="Jan. 2016 to Apr. 2019- India"
+            tech="React/ Redux, TypeScript, NodeJS, React Native, RTL, Jest, JavaScript,ES6+, HTML, CSS/ SCSS, WebPack, MongoDB, GIT/GitHub, AWS, Linux, Rest API’s, Postman, JSON,XML, Docker, Vercel."
             points={[
-              "Worked mainly on Postman API’s, JavaScript, jQuery, React, Redux, TypeScript, Oracle SQL,PostgreSQL, Bootstrap, Html5, CSS3, ES6, Figma, Linux , Jest",
-              "Experienced in creating backend APIs and communicating the requirements with clients, and Collaborated with designers to build design mockups to UI and delivered quality-driven applications.",
-              "Developed and tested the code to work in all the browsers",
-              "Worked with clients to understand and ensure the requirements were met.",
+              "Handled, Designed & Implemented web and mobile banking applications and Delivered the Application with the best Quality driven & with the best User Experience for Bank Users.",
+              "Experience using SVN and GIT and cloud technologies like Azure, and AWS.",
+              "Experience using the command line tool and package managers i.e. NPM, yarn.",
+              "Ability to work in fast pace environment.",
+              "Involved in various phases of Software Development life cycle i.e. waterfall, and agile environment.",
             ]}
           />
         </Paper>

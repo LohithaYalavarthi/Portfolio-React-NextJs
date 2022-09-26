@@ -4,9 +4,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  height: 100vh;
+    background: #f7f7f7;
 }
-
+:root {
+ height : 50vh
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -37,8 +39,6 @@ a {
   grid-template-columns: repeat(2, 200px);
   align-items: center;
   margin : '20px'
-  /* justify-content: center; */
-  /* align-content: center; */
 }
 
 .smallbio{
@@ -67,7 +67,7 @@ ul .a {
 }
 .container {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 0.15fr 1fr;
 }
 
 @media only screen and (max-width: 768px) {
@@ -100,6 +100,7 @@ ul .a {
   }
   .text-style-1{
     font-weight: 600 !important;
-  }
-  
+  } 
 }
+
+

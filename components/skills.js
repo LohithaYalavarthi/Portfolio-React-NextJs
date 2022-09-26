@@ -9,15 +9,22 @@ import PaperComponent from "../components/paper"
 function Skills() {
   return (
     <div id="skills">
-      <Container sx={{ marginTop: "60px" }}>
-        <Box sx={{ display: "flex", alignItems: "center" }}>
-          <Divider sx={{ width: "50px", color: "black" }} />
-          <Box sx={{ paddingLeft: "30px" }}>CHECK OUT MY</Box>
+      <Container
+        sx={{
+          display: "grid",
+          placeContent: "center",
+        }}
+      >
+        <Box sx={{ display: "grid" }}>
+          <Box sx={{ display: "flex", alignItems: "center" }}>
+            <Divider sx={{ width: "50px", color: "black" }} />
+            <Box sx={{ paddingLeft: "3px" }}>CHECK OUT MY</Box>
+          </Box>
+          <Typography variant="h4" m={3}>
+            {" "}
+            SKILLS
+          </Typography>
         </Box>
-        <Typography variant="h4" m={3}>
-          {" "}
-          SKILLS
-        </Typography>
         <Paper
           elevation={3}
           sx={{
@@ -42,6 +49,9 @@ function Skills() {
           <PaperComponent icon="javascript" text="TypeScript" />
           <PaperComponent icon="javascript" text="Nodejs" />
           <PaperComponent icon="javascript" text="JavaScript" />
+          <Box sx={{ display: "flex", alignItems: "center" }}>
+            .... many more
+          </Box>
         </Paper>
       </Container>
     </div>

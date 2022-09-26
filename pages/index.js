@@ -12,7 +12,7 @@ import ContactMe from "../components/contactme"
 import Container from "@mui/material/Container"
 const outerTheme = createTheme({
   typography: {
-    fontFamily: ["Chilanka", "cursive"].join(","),
+    fontFamily: ["Poppins", "cursive"].join(","),
   },
 })
 
@@ -24,7 +24,7 @@ export default function Home() {
           <Menu />
         </div>
         <Container
-          sx={{ height: "100vh", marginLeft: "20px" }}
+          sx={{ display: "grid", rowGap: "10rem" }}
           className="margin-col"
         >
           <About />
