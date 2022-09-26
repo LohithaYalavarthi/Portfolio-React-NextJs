@@ -68,7 +68,7 @@ function Project() {
             text="INDIA POST PAYMENTS BANK, INDIA	"
             subtext1="Jan. 2016 to Jan. 2018"
             points={[
-              "Developed a web application which is used to make Transactions that are essential to corporate ﬁnancing, investing and growth .The applications helps corporate to do Cash Deposit, Cash withdrawal, Fund Transfer and other operations.",
+              "Developed a web application which is used to make Transactions that are essential to corporate ﬁnancing, investing and growth .The application helps corporate to do Cash Deposit, Cash withdrawal, Fund Transfer and other operations.",
               "Worked on HTML, Javascript, Nodejs, React, React Native, PostgreSQL,  SQL, CSS.",
             ]}
           />
