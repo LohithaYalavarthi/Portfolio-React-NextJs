@@ -83,7 +83,7 @@ function About() {
                 passionate about developing applications.
               </Typography>
               <Box
-                p={2}
+                pt={2}
                 sx={{ display: "flex", alignItems: "center" }}
                 className="grid-style"
               >
@@ -125,7 +125,7 @@ function About() {
                     },
                   }}
                 >
-                  <Paper elevation={3}>
+                  <Paper elevation={3} sx={{ padding: "5px" }}>
                     <Link
                       href="https://www.linkedin.com/in/lohithayalavarthi/"
                       target="_blank"
@@ -137,7 +137,7 @@ function About() {
                       />
                     </Link>
                   </Paper>
-                  <Paper elevation={3}>
+                  <Paper elevation={3} sx={{ padding: "5px" }}>
                     <Link href="https://github.com/LohithaYalavarthi">
                       <GitHubIcon sx={{ color: "#8444df" }} fontSize="large" />
                     </Link>

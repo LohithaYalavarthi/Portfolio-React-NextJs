@@ -22,22 +22,23 @@ function AboutMe() {
         <Typography variant="h4"> About Me </Typography>
         <Paper
           elevation={3}
-          sx={{ padding: "23px", borderRadius: "45px" }}
+          sx={{ padding: "44px", borderRadius: "45px" }}
           className="paper-style"
         >
           <Typography variant="h6" gutterBottom className="text-style">
             Experienced Full Stack Developer with 6+ years of experience in the
-            IT Industry.
+            IT Industry. Having a Master’s degree specializing in Computer
+            Science.
           </Typography>
 
-          <Typography variant="h6" gutterBottom className="text-style">
-            Having a Master’s degree specializing in Computer Science.
-          </Typography>
+          <Typography
+            variant="h6"
+            gutterBottom
+            className="text-style"
+          ></Typography>
 
           <Typography variant="h6" gutterBottom className="text-style">
-            Skilled in problem-solving, data structures, and algorithms.
-          </Typography>
-          <Typography variant="h6" gutterBottom className="text-style">
+            Skilled in problem-solving, data structures, and algorithms and
             Expertise in designing, developing, and implementing applications
             using a range of technologies.
           </Typography>

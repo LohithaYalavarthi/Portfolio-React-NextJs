@@ -10,18 +10,17 @@ function PaperComponent({ icon, text }) {
       <Paper
         elevation={3}
         sx={{
-          width: "80px",
-          height: "80px",
-          padding: "3px",
+          width: "82px",
+          height: "82px",
+          padding: "6px",
           borderRadius: "20px",
         }}
       >
         <Box
           sx={{
-            display: "flex",
-            alignItems: "center",
-            flexDirection: "column",
-            flexWrap: "wrap",
+            display: "grid",
+            placeItems: "center",
+            rowGap: "4px",
           }}
         >
           <Image
@@ -30,9 +29,7 @@ function PaperComponent({ icon, text }) {
             width={40}
             height={40}
           />
-          <Typography variant="body2" p={1}>
-            {text}
-          </Typography>
+          <Typography variant="body2">{text}</Typography>
         </Box>
       </Paper>
     </Box>
