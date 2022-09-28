@@ -34,11 +34,6 @@ a {
   font-size: 17px;
 }
 
-.sc-main-div{
-  display: grid;
-  grid-template-columns: repeat(2, 200px);
-  align-items: center;
-}
 
 .smallbio{
   letter-spacing: 1px;
