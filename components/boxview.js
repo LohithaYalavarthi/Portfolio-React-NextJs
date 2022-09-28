@@ -27,13 +27,13 @@ function BoxView({ text, tech, subtext, subtext1, points = [] }) {
           <Typography variant="h6" p={1} className="text-style">
             {text}
           </Typography>
-          <Typography variant="subtitle1" pl={1} pr={1} className="text-style">
+          <Typography variant="subtitle1" pl={1} pr={1}>
             <b>{subtext}</b>
           </Typography>
-          <Typography variant="subtitle1" pl={1} pr={1} className="text-style">
+          <Typography variant="subtitle1" pl={1} pr={1}>
             {subtext1}
           </Typography>
-          <Box p={1} className="text-style">
+          <Box p={1}>
             {tech && (
               <>
                 {" "}
@@ -48,15 +48,8 @@ function BoxView({ text, tech, subtext, subtext1, points = [] }) {
             {points.map((point, i) => (
               <ListItem disablePadding key={i}>
                 {" "}
-                <Typography
-                  variant="subtitle1"
-                  pl={2}
-                  pb={1}
-                  className="text-style-1"
-                >
-                  <span style={{ fontSize: "6px", paddingRight: "10px" }}>
-                    {"\u2B24"}
-                  </span>{" "}
+                <Typography variant="subtitle1" pl={2} pb={1}>
+                  <span className="text__bullet__points">{"\u2B24"}</span>{" "}
                   {point}
                 </Typography>
               </ListItem>

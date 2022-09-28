@@ -25,19 +25,13 @@ function AboutMe() {
           sx={{ padding: "44px", borderRadius: "45px" }}
           className="paper-style"
         >
-          <Typography variant="h6" gutterBottom className="text-style">
+          <Typography variant="h6" gutterBottom>
             Experienced Full Stack Developer with 6+ years of experience in the
             IT Industry. Having a Master’s degree specializing in Computer
             Science.
           </Typography>
 
-          <Typography
-            variant="h6"
-            gutterBottom
-            className="text-style"
-          ></Typography>
-
-          <Typography variant="h6" gutterBottom className="text-style">
+          <Typography variant="h6" gutterBottom>
             Skilled in problem-solving, data structures, and algorithms and
             Expertise in designing, developing, and implementing applications
             using a range of technologies.
