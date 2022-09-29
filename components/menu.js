@@ -9,12 +9,13 @@ function Menu() {
         <Box sx={{ backgroundColor: "#773dc8" }}>
           <Typography variant="h1">LY</Typography>{" "}
         </Box>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#exp">Experience</a>
-
-        <a href="#project">Project</a>
+        <Box sx={{ marginTop: "5em" }}>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#exp">Experience</a>
+          <a href="#project">Project</a>
+        </Box>
       </Box>
     </div>
   )
