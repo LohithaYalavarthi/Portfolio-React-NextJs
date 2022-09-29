@@ -44,7 +44,7 @@ function Skills() {
           <PaperComponent icon="git" text="Git" />
           <PaperComponent icon="firebase" text="Firebase" />
           <PaperComponent icon="javascript" text="MongoDB" />
-          <PaperComponent icon="javascript" text="AWS" />
+          <PaperComponent icon="aws" text="AWS" />
           <PaperComponent icon="javascript" text="Redux" />
           <PaperComponent icon="javascript" text="TypeScript" />
           <PaperComponent icon="javascript" text="Nodejs" />
