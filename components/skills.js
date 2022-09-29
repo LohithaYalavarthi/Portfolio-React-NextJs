@@ -43,11 +43,11 @@ function Skills() {
           <PaperComponent icon="html" text="HTML" />
           <PaperComponent icon="git" text="Git" />
           <PaperComponent icon="firebase" text="Firebase" />
-          <PaperComponent icon="javascript" text="MongoDB" />
+          <PaperComponent icon="mongodb" text="MongoDB" />
           <PaperComponent icon="aws" text="AWS" />
-          <PaperComponent icon="javascript" text="Redux" />
-          <PaperComponent icon="javascript" text="TypeScript" />
-          <PaperComponent icon="javascript" text="Nodejs" />
+          <PaperComponent icon="redux" text="Redux" />
+          <PaperComponent icon="typescript" text="TypeScript" />
+          <PaperComponent icon="nodejs" text="Nodejs" />
           <PaperComponent icon="javascript" text="JavaScript" />
           <Box sx={{ display: "flex", alignItems: "center" }}>
             .... many more
