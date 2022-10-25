@@ -18,7 +18,9 @@ function Skills() {
         <Box sx={{ display: "grid" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
             <Divider sx={{ width: "50px", color: "black" }} />
-            <Box sx={{ paddingLeft: "3px" }}>CHECK OUT MY</Box>
+            <Box sx={{ paddingLeft: "3px", fontSize: "10px" }}>
+              CHECK OUT MY
+            </Box>
           </Box>
           <Typography variant="h4" m={3}>
             {" "}

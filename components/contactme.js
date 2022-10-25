@@ -13,7 +13,7 @@ function ContactMe() {
       <Container sx={{ marginTop: "60px" }}>
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <Divider sx={{ width: "50px", color: "black" }} />
-          <Box sx={{ paddingLeft: "30px" }}>CHECK OUT MY</Box>
+          <Box sx={{ paddingLeft: "30px", fontSize: "10px" }}>CHECK OUT MY</Box>
         </Box>
         <Typography variant="h4" m={3}>
           {" "}

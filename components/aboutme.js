@@ -17,7 +17,7 @@ function AboutMe() {
       >
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <Divider sx={{ width: "50px", color: "black" }} />
-          <Box sx={{ paddingLeft: "4px" }}>Some Info</Box>
+          <Box sx={{ paddingLeft: "4px", fontSize: "10px" }}>Some Info</Box>
         </Box>
         <Typography variant="h4"> About Me </Typography>
         <Paper

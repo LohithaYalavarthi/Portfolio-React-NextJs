@@ -8,18 +8,9 @@ import Container from "@mui/material/Container"
 import Typography from "@mui/material/Typography"
 import Button from "@mui/material/Button"
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
-import TwitterIcon from "@mui/icons-material/Twitter"
 import GitHubIcon from "@mui/icons-material/GitHub"
-import { useRouter } from "next/router"
 import Link from "next/link"
 
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}))
 function About() {
   return (
     <div id="home">
@@ -50,11 +41,7 @@ function About() {
               </Box>
             </Grid>
             <Grid item xs={7} className="margin-col">
-              {/* <p variant="heading1" gutterBottom p={1}>
-              HI THERE! I'M
-            </p> */}
               <Typography variant="subtitle1" p={2}>
-                {" "}
                 HI THERE! I&apos;M
               </Typography>
               <Typography variant="h3" gutterBottom pl={2}>
@@ -123,6 +110,10 @@ function About() {
                       justifyContent: "center",
                       alignItems: "center",
                     },
+
+                    "& :hover": {
+                      cursor: "pointer",
+                    },
                   }}
                 >
                   <Paper elevation={3} sx={{ padding: "5px" }}>
@@ -142,11 +133,6 @@ function About() {
                       <GitHubIcon sx={{ color: "#8444df" }} fontSize="large" />
                     </Link>
                   </Paper>
-                  {/* <Paper elevation={3}>
-                    <Link href="https://twitter.com/yravindhra">
-                      <TwitterIcon sx={{ color: "#8444df" }} fontSize="large" />
-                    </Link>
-                  </Paper> */}
                 </Box>
               </Box>
             </Grid>
