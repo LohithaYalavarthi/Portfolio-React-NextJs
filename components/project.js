@@ -26,8 +26,8 @@ function Project() {
             text="Shopping Application"
             subtext1="Aug. 2020 to Jan. 2021"
             points={[
-              "Displaying list of shopping items, adding in a cart, processing payments, search items and displaying offers and coupons etc.",
-              "Technologies involved are React, React Hooks, NodeJS, GraphQL, AWS, DynamoDB, Storybook, Redux toolkit, Tailwind css, HTML, SCSS.",
+              "Displaying a list of shopping items, adding to a cart, processing payments, searching items, and displaying offers and coupons, etc.",
+              "Technologies involved are React/Redux, Tailwind CSS, Storybook, NodeJS, TypeScript, AWS, GraphQL, and DynamoDB.",
               "Worked end to end process i.e supported delivering app from dev to prod env.",
             ]}
           />
@@ -35,41 +35,39 @@ function Project() {
             text="Peerz Mobile Application"
             subtext1="Apr. 2019 to Aug. 2020"
             points={[
-              "It is a Mobile Learning App, where student and mentor can log in through the App and can be able to raise , reply to a question , add skills & subjects , create profile etc.",
-              "Worked on React, Redux, NodeJS, React Native, Webpack, JavaScript, MongoDB, AWS, Storybook, Bootstrap, Html5, CSS3, Linux, and Git.",
-              "Worked with AWS for releases and deployments in various environments etc.",
-              "Worked with Express Apis, regarding matching a list of mentors with students and build the various functionalities on mobile (Android/Iphone) with React Native i.e raising and reply to a Questions based on subject etc.",
-              "Worked on Agile Environment, engaged in planning discussions, participated in SNT and worked towards project delivery from DEV environment to till Production Process",
-              "Adapted with new tools and Learned new technologies.",
+              "It is a Mobile Learning App where students and mentors register to the app to raise, reply to a question, add skills & subjects, create profiles etc.",
+              "Developed app using React Native, Redux, ExpressJS, Webpack, JavaScript, MongoDB, AWS, Bootstrap, Html5, CSS3, Linux, and Git.",
+              "Created Express APIs to match questions raised by students to mentors based on ratings.",
+              "Generated apk, ipa files and published the app to the Google play store and Apple store.",
+              "Quickly Adapted to new tools and technologies that are needed when developing applications.",
+              "Worked in Agile Environment, engaged in planning discussions, participated in SNT and worked towards project delivery from DEV environment to till Production Process.",
             ]}
           />
           <BoxView
             text="Peerz Web Application"
             subtext1="Apr. 2019 to Aug. 2020"
             points={[
-              "It is a Web Application handled by Admin ( Clients) to Rematch or Reassigns the Particular question for students and also utilized for monitoring the list of questions requested and responded etc",
-              "Worked on React, Redux, Styled Components, Storybook, Tailwindcss, AWS, Express Js, MongoDB.",
-              "Participated in sharing tech topics and coding events etc.",
-              "Participated in Planning meetings, Performed various demos to Clients, Attended Scrum Calls to discuss status for user stories etc.",
+              "It is a Web Application handled by Admin ( Clients) to Rematch or Reassigns the Particular question for students and also utilized for monitoring the list of questions requested and responded etc.",
+              "Worked with React, Redux, ExpressJS, Styled Components, Webpack, Html5, CSS3, SCSS, Mongodb.",
+              "Created and maintained knowledge base to provoke knowledge base with in team.",
+              "Presented various demos to clients, discussed designs with the UX team and mentored junior developers.",
             ]}
           />
           <BoxView
             text="CORPORATE BANKING WEB APP EQUITAS BANK, INDIA	"
             subtext1="Jan. 2018 to Apr. 2019"
             points={[
-              "Developed web application can be used by business correspondents who can visit customers at their doorstep and serve financial transactions and do Banking Operations.",
-              "Developed a MobileBanking Application designed for Customers to Perform Account Opening, Transfers, UPI, BillPayments, etc.",
-              "Development work included building, implementing the UI/UX screens i.e (SignUp, Login, Dashboard , Payments etc) and creating APIS i.e fetching the user details from database etc.",
-              "Development involved using React, Redux, Azure , TypeScript, NodeJS, Express,  Material UI, JavaScript, HTML, CSS3, SCSS, GIT and SQL.",
-              "Participating in the coding competitions and share technology updates with in the development team.",
+              "Developed a web application used by corporate to make transactions essential to corporate financing, investing and growth. The application helps corporate to do Cash Deposits, Cash withdrawals, Fund transfers and other operations.",
+              "Development involved using JavaScript, HTML5, Azure Devops, Material UI, CSS3, GIT and SQL.",
+              "Participated in the coding competitions and shared technology updates with in the development team.",
             ]}
           />
           <BoxView
             text="INDIA POST PAYMENTS BANK, INDIA	"
             subtext1="Jan. 2016 to Jan. 2018"
             points={[
-              "Developed a web application which is used to make Transactions that are essential to corporate ﬁnancing, investing and growth .The application helps corporate to do Cash Deposit, Cash withdrawal, Fund Transfer and other operations.",
-              "Worked on HTML, Javascript, Nodejs, React, React Native, PostgreSQL,  SQL, CSS.",
+              "Developed a web application that can help bank employees to serve the customers visiting branches, and also created a tablet and mobile app for bank users to perform many of the same activities as online banking.",
+              "Worked on React Native, React, PostgreSQL, CSS3, SCSS.",
             ]}
           />
         </Paper>

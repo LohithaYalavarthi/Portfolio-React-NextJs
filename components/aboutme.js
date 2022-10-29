@@ -26,16 +26,20 @@ function AboutMe() {
           className="paper-style"
         >
           <Typography variant="h6" gutterBottom>
-            Experienced Full Stack Developer with 6+ years of experience in the
-            IT Industry. Having a Master’s degree specializing in Computer
-            Science.
+            I'm a fullstack developer with a background in computer science. My
+            5+ years of IT experience has given me a strong foundation in
+            creating front-end and back-end applications and building complex
+            solutions. Recently, I graduated Masters in computer Science from
+            the Bishops University, I am passionate about coding and solving
+            problems through code, and I am excited to work alongside other
+            amazing programmers and learn so much more!
           </Typography>
 
-          <Typography variant="h6" gutterBottom>
+          {/* <Typography variant="h6" gutterBottom>
             Skilled in problem-solving, data structures, and algorithms and
             Expertise in designing, developing, and implementing applications
             using a range of technologies.
-          </Typography>
+          </Typography> */}
         </Paper>
       </Container>
     </div>

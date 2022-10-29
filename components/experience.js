@@ -39,11 +39,11 @@ function Experience() {
             subtext="Senior Software Engineer"
             subtext1="Apr. 2019 to Jan. 2021 - India"
             points={[
-              "Experienced in building Responsive Web, and Mobile Applications and in creating REST APIs",
+              "Implemented responsive front-end UI/UX, back-end REST APIs, and Mobile applications.",
               "Communicated the requirements with clients, created stories, and collaborated with designers to build design mockups to UI and delivered quality-driven applications.",
-              "Experience using version control GIT and GitHub and familiar with (CI/CD) pipelines i.e. Docker,and cloud technologies like AWS, Vercel, and Azure.",
-              "Familiar with writing tests, including unit tests, integration tests, and e2e using RTL and Jest, and also supported shipping an application to a live production environment.",
-              "Worked in an agile environment, engaged in the scrum, contributed to planning discussions, met deadlines, and delivered the project.",
+              "Handled projects and mentored junior developers.",
+              "Experienced using version control GIT and GitHub and familiar with (CI/CD) pipelines i.e. Docker, and cloud technologies like AWS, Vercel, and Azure.",
+              "Familiar with writing tests, including unit tests, integration tests, and e2e using Jest, and also supported shipping an application to a live production environment.",
             ]}
           />
           <BoxView
@@ -52,11 +52,9 @@ function Experience() {
             subtext1="Jan. 2016 to Apr. 2019- India"
             tech="React/ Redux, TypeScript, NodeJS, React Native, RTL, Jest, JavaScript, ES6+, HTML, CSS/ SCSS, WebPack, MongoDB, GIT/GitHub, AWS, Linux, Rest API’s, Postman, JSON, XML, Docker, Vercel."
             points={[
-              "Handled, Designed & Implemented web and mobile banking applications and Delivered the Application with the best Quality driven & with the best User Experience for Bank Users.",
-              "Experience using SVN and GIT and cloud technologies like Azure, and AWS.",
-              "Experience using the command line tool and package managers i.e. NPM, yarn.",
-              "Ability to work in fast pace environment.",
-              "Involved in various phases of Software Development life cycle i.e. waterfall, and agile environment.",
+              "Built Web applications that can help bank employees to serve the customers visiting branches, and also created tablet and mobile apps for bank users to perform many of the same activities as online banking.",
+              "Developed applications with the best software practices, security measures, coding reviews, source control management, good design skills, and testing.",
+              "Involved in various phases of Software Development life cycle (SDLC) i.e. waterfall, and agile environment.",
             ]}
           />
         </Paper>
