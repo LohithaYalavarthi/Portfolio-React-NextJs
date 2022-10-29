@@ -87,7 +87,7 @@ function About() {
                   className="button-style"
                 >
                   <a
-                    href="/Lohitha.pdf"
+                    href="/LohithaYalavarthi.pdf"
                     alt="alt text"
                     target="_blank"
                     rel="noopener noreferrer"

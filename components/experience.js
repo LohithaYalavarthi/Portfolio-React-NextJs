@@ -24,7 +24,7 @@ function Experience() {
         >
           <BoxView
             text="CGI INC"
-            tech="Service now, Active directory and Service desk Tool Kit, SharePoint,Director, Citrix, Pulse secure, RSA."
+            tech="Service now, Active directory, Service desk Tool Kit, SharePoint, Director, Citrix, Pulse secure, and RSA."
             subtext="Application Support Analyst"
             subtext1="July 2021 to Current - Sherbrooke, QC"
             points={[
@@ -35,14 +35,14 @@ function Experience() {
           />
           <BoxView
             text="CloudThing India"
-            tech="React/ Redux, TypeScript, NodeJS, React Native, RTL, Jest, JavaScript, ES6+, HTML, CSS/ SCSS, WebPack, MongoDB, GIT/GitHub, AWS, Linux, Rest API’s, Postman, JSON, XML, Docker, Vercel."
+            tech="React/Redux, TypeScript, NodeJS, React Native, Jest, JavaScript, ES6+, HTML, HTML5, CSS, CSS3/SCSS, WebPack, MongoDB, GIT/GitHub, AWS, Linux, Rest API’s, Postman, JSON, XML, Docker."
             subtext="Senior Software Engineer"
             subtext1="Apr. 2019 to Jan. 2021 - India"
             points={[
               "Implemented responsive front-end UI/UX, back-end REST APIs, and Mobile applications.",
               "Communicated the requirements with clients, created stories, and collaborated with designers to build design mockups to UI and delivered quality-driven applications.",
-              "Handled projects and mentored junior developers.",
-              "Experienced using version control GIT and GitHub and familiar with (CI/CD) pipelines i.e. Docker, and cloud technologies like AWS, Vercel, and Azure.",
+              "Handled different projects, worked independently and in a team, and mentored junior developers.",
+              "Experienced using version control GIT and GitHub and familiar with (CI/CD) pipelines, i.e. Docker, and cloud technologies like AWS, GCP, and Azure.",
               "Familiar with writing tests, including unit tests, integration tests, and e2e using Jest, and also supported shipping an application to a live production environment.",
             ]}
           />
@@ -50,7 +50,7 @@ function Experience() {
             text="I-Exceed Technologies Solutions Pvt. Ltd"
             subtext="Software Developer"
             subtext1="Jan. 2016 to Apr. 2019- India"
-            tech="React/ Redux, TypeScript, NodeJS, React Native, RTL, Jest, JavaScript, ES6+, HTML, CSS/ SCSS, WebPack, MongoDB, GIT/GitHub, AWS, Linux, Rest API’s, Postman, JSON, XML, Docker, Vercel."
+            tech="React/Redux, TypeScript, NodeJS, React Native, RTL, Jest, JavaScript, ES6+, HTML, CSS/ SCSS, WebPack, MongoDB, GIT/GitHub, AWS, Linux, Rest API’s, Postman, JSON, XML, Docker, Vercel."
             points={[
               "Built Web applications that can help bank employees to serve the customers visiting branches, and also created tablet and mobile apps for bank users to perform many of the same activities as online banking.",
               "Developed applications with the best software practices, security measures, coding reviews, source control management, good design skills, and testing.",

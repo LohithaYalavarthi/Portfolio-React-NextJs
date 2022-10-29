@@ -27,8 +27,8 @@ function Project() {
             subtext1="Aug. 2020 to Jan. 2021"
             points={[
               "Displaying a list of shopping items, adding to a cart, processing payments, searching items, and displaying offers and coupons, etc.",
-              "Technologies involved are React/Redux, Tailwind CSS, Storybook, NodeJS, TypeScript, AWS, GraphQL, and DynamoDB.",
-              "Worked end to end process i.e supported delivering app from dev to prod env.",
+              "Technologies involved are React/Redux, NodeJS, GraphQL, TypeScript, Tailwind CSS, Storybook, AWS, and DynamoDB.",
+              "Worked end to end process i.e supported delivering app from dev to prod.",
             ]}
           />
           <BoxView
@@ -36,7 +36,7 @@ function Project() {
             subtext1="Apr. 2019 to Aug. 2020"
             points={[
               "It is a Mobile Learning App where students and mentors register to the app to raise, reply to a question, add skills & subjects, create profiles etc.",
-              "Developed app using React Native, Redux, ExpressJS, Webpack, JavaScript, MongoDB, AWS, Bootstrap, Html5, CSS3, Linux, and Git.",
+              "Developed app using React Native, Redux, ExpressJS, Webpack, JavaScript, MongoDB, Bootstrap, Html5, CSS3, Linux, and Git.",
               "Created Express APIs to match questions raised by students to mentors based on ratings.",
               "Generated apk, ipa files and published the app to the Google play store and Apple store.",
               "Quickly Adapted to new tools and technologies that are needed when developing applications.",
@@ -48,7 +48,7 @@ function Project() {
             subtext1="Apr. 2019 to Aug. 2020"
             points={[
               "It is a Web Application handled by Admin ( Clients) to Rematch or Reassigns the Particular question for students and also utilized for monitoring the list of questions requested and responded etc.",
-              "Worked with React, Redux, ExpressJS, Styled Components, Webpack, Html5, CSS3, SCSS, Mongodb.",
+              "Worked with React, Redux, ExpressJS, Styled Components, CSS3, SCSS, Html5, Webpack, Mongodb, AWS.",
               "Created and maintained knowledge base to provoke knowledge base with in team.",
               "Presented various demos to clients, discussed designs with the UX team and mentored junior developers.",
             ]}
