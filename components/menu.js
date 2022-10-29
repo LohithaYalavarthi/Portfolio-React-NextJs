@@ -94,7 +94,7 @@ function Menu() {
             </MenuItem>
           </Link>
         </MenuList>
-        <Box class="scrollDown" id="scrollDown">
+        <Box className="scrollDown" id="scrollDown">
           <MenuItem sx={{ cursor: "text" }}>
             <ListItemIcon>
               <ArrowDownwardIcon sx={{ color: "white" }} fontSize="large" />

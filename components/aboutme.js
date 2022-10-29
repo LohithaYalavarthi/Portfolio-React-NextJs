@@ -26,13 +26,13 @@ function AboutMe() {
           className="paper-style"
         >
           <Typography variant="h6" gutterBottom>
-            I'm a fullstack developer with a background in computer science. My
-            5+ years of IT experience has given me a strong foundation in
-            creating front-end and back-end applications and building complex
-            solutions. Recently, I graduated Masters in computer Science from
-            the Bishops University, I am passionate about coding and solving
-            problems through code, and I am excited to work alongside other
-            amazing programmers and learn so much more!
+            I&apos;m a fullstack developer with a background in computer
+            science. My 5+ years of IT experience has given me a strong
+            foundation in creating front-end and back-end applications and
+            building complex solutions. Recently, I graduated Masters in
+            computer Science from the Bishops University, I am passionate about
+            coding and solving problems through code, and I am excited to work
+            alongside other amazing programmers and learn so much more!
           </Typography>
 
           {/* <Typography variant="h6" gutterBottom>
