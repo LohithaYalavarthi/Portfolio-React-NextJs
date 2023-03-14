@@ -25,12 +25,18 @@ function Experience() {
           <BoxView
             text="CGI INC"
             tech="Service now, Active directory, Service desk Tool Kit, SharePoint, Director, Citrix, Pulse secure, and RSA."
-            subtext="Application Support Analyst"
+            subtext="IT Consultant"
             subtext1="July 2021 to Current - Sherbrooke, QC"
             points={[
-              "Diagnose and resolve technical hardware and software issues (printer, cell phone, web browser,etc).",
-              "Responsible for handling numerous incoming calls, chats, and emails and providing L1/L2 support for clients with IT-related Issues or requests.",
-              "Using remote access to perform diagnostics, and troubleshooting when needed.",
+              "Involved in developing various functionalities in different applications for our client BMO using reactjs,redux, styled components, nodejs",
+              "Involved in analysis, design, development and testing phases of the application development (SDLC) usingAgile Scrum methodology",
+              "Involved in design reviews and suggested changes in figma design",
+              "Developed component based reusable modules using react js and used redux and context api for statemanagement",
+              "Created unit test cases using jest and react testing library and used Git for version control.",
+              "Responsible for resolving and troubleshooting application issues using technologies like ReactJS, NodeJS.",
+              "Ensures that assigned tasks/tickets are delivered within required SLA and required quality objectives",
+              "Responsible for creating Knowledge base and technical documentation whenever its required",
+              "Responsible for monitoring and deploying applications in AWS cloud environment",
             ]}
           />
           <BoxView
