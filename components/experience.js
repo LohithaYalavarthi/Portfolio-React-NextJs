@@ -45,11 +45,11 @@ function Experience() {
             subtext="Senior Software Engineer"
             subtext1="Apr. 2019 to Jan. 2021 - India"
             points={[
-              "Implemented responsive front-end UI/UX, back-end REST APIs, and Mobile applications.",
-              "Communicated the requirements with clients, created stories, and collaborated with designers to build design mockups to UI and delivered quality-driven applications.",
-              "Handled different projects, worked independently and in a team, and mentored junior developers.",
-              "Experienced using version control GIT and GitHub and familiar with (CI/CD) pipelines, i.e. Docker, and cloud technologies like AWS, GCP, and Azure.",
-              "Familiar with writing tests, including unit tests, integration tests, and e2e using Jest, and also supported shipping an application to a live production environment.",
+              "Implemented responsive front-end UI/UX, back-end REST APIs, and Mobile applications using ReactJS,NodeJS, NextJS, Contentful",
+              "Discussed business requirements with clients, created stories and collaborated with designers to build UImockups and deliver quality-driven applications.",
+              "Handled different projects, worked independently and in a team, and mentored other developers",
+              "Experienced working with AWS SAM framework for building serverless applications and created Lambdafunctions, API Gateways, Databases",
+              "Experienced working with version control GIT, GitHub, NPM, yarn, debugging, and familiar withmicroservices, (CI/CD) pipelines i.e. Jenkins and cloud technologies like AWS, Docker, Kubernetes.",
             ]}
           />
           <BoxView
@@ -58,9 +58,12 @@ function Experience() {
             subtext1="Jan. 2016 to Apr. 2019- India"
             tech="React/Redux, TypeScript, NodeJS, React Native, RTL, Jest, JavaScript, ES6+, HTML, CSS/ SCSS, WebPack, MongoDB, GIT/GitHub, AWS, Linux, Rest API’s, Postman, JSON, XML, Docker, Vercel."
             points={[
-              "Built Web applications that can help bank employees to serve the customers visiting branches, and also created tablet and mobile apps for bank users to perform many of the same activities as online banking.",
-              "Developed applications with the best software practices, security measures, coding reviews, source control management, good design skills, and testing.",
-              "Involved in various phases of Software Development life cycle (SDLC) i.e. waterfall, and agile environment.",
+              "Built ReactJS/React Native app and web apps for banking clients (e.g., Equitas, India Post) to optimizein-branch experiences, enable efficient service, and enhance customer accessibility for on-the-go banking",
+              "Responsible for creating and managing content using contentful and used set of JSON APIs to query thisdata in our React application.",
+              "Experience working with relational databases ( PostgreSQL, MySQL , etc), NoSQL databases ( MongoDB,DynamoDB, etc), and object stores (S3, etc).",
+              "Developed applications with SEO principles, the best software practices, and security measures, UXdesign, and provided coding reviews.",
+              "Developed the application with zero issues and improved the app quality, which increased the number ofusers using the app from 30% to 90%.",
+              "Involved in various phases of Software Development life cycle (SDLC) i.e. waterfall, agile softwaredevelopment practices such as SCRUM, KANBAN.",
             ]}
           />
         </Paper>
